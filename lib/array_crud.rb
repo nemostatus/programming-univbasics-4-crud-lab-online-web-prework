@@ -17,45 +17,45 @@ end
 
 
 def add_element_to_start_of_array(array, element)
-  ["I", "am", "really", "learning"].unshift(element)
+  return ["I", "am", "really", "learning"].unshift(element)
   
 end
 ["I", "am", "really", "learning"].unshift("wow")
 
 def remove_element_from_end_of_array(array)
-  array.pop
+  return array.pop
   
 end
 ["I", "am", "really", "learning","arrays!"].pop
 
 def remove_element_from_start_of_array(array)
-  array.shift
+  return array.shift
   
 end
 ["wow", "I", "am", "really", "learning", "arrays!"].shift
 
 
 def retrieve_element_from_index(array, index_number)
-  array[index_number]
+  return array[index_number]
   
 end
 ["wow", "I", "am", "really", "learning", "arrays!"][4]
 
 
 def retrieve_first_element_from_array(array)
-  array.first
+  return array.first
   
 end
 ["wow", "I", "am", "really", "learning", "arrays!"].first
 
 def retrieve_last_element_from_array(array)
-  array.last
+  return array.last
   
 end
 ["wow", "I", "am", "really", "learning", "arrays!"].last
 
 def update_element_from_index(array, index_number, element)
-  array[index_number=element]
+  return array[index_number=element]
 
 end
 ["wow", "I", "am", "really", "learning", "arrays!"][4="totally"]
