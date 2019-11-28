@@ -12,7 +12,7 @@ def add_element_to_end_of_array(array, element)
   return array << element
   
 end
-
+ ["wow", "I", "am", "really", "learning"] << "arrays!"
  
 
 
