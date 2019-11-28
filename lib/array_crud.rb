@@ -23,10 +23,10 @@ end
 ["I", "am", "really", "learning"].unshift("wow")
 
 def remove_element_from_end_of_array(array)
-  array.pop(element)
+  array.pop
   
 end
-
+["I", "am", "really", "learning","arrays!"].pop
 
 def remove_element_from_start_of_array(array)
   
