@@ -52,7 +52,7 @@ def retrieve_last_element_from_array(array)
   array.last
   
 end
-
+["wow", "I", "am", "really", "learning", "arrays!"].last
 
 def update_element_from_index(array, index_number, element)
 
